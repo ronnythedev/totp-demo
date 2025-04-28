@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpGenerator", "TotpGenerator\TotpGenerator.csproj", "{17E64FE4-3ABD-4217-8132-16E24AE2C15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpClient", "TotpClient\TotpClient.csproj", "{1978DCA1-6F32-4824-9015-7C8F234F74CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TotpGenerator", "TotpGenerator", "{C2B05E1F-BEAC-4E92-A9C4-9D89A6B99BA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TotpClient", "TotpClient", "{42D67C37-37C1-438C-B4A4-2254FE8F137B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{CE6CD4A2-0F28-43C2-8CFA-0C12D4847ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpShared", "TotpShared\TotpShared.csproj", "{714C3229-4EFC-4FFE-81F6-20E6144CCFB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17E64FE4-3ABD-4217-8132-16E24AE2C15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E64FE4-3ABD-4217-8132-16E24AE2C15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E64FE4-3ABD-4217-8132-16E24AE2C15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E64FE4-3ABD-4217-8132-16E24AE2C15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1978DCA1-6F32-4824-9015-7C8F234F74CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1978DCA1-6F32-4824-9015-7C8F234F74CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1978DCA1-6F32-4824-9015-7C8F234F74CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1978DCA1-6F32-4824-9015-7C8F234F74CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714C3229-4EFC-4FFE-81F6-20E6144CCFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714C3229-4EFC-4FFE-81F6-20E6144CCFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714C3229-4EFC-4FFE-81F6-20E6144CCFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714C3229-4EFC-4FFE-81F6-20E6144CCFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17E64FE4-3ABD-4217-8132-16E24AE2C15F} = {C2B05E1F-BEAC-4E92-A9C4-9D89A6B99BA5}
+		{1978DCA1-6F32-4824-9015-7C8F234F74CB} = {42D67C37-37C1-438C-B4A4-2254FE8F137B}
+		{714C3229-4EFC-4FFE-81F6-20E6144CCFB8} = {CE6CD4A2-0F28-43C2-8CFA-0C12D4847ED3}
+	EndGlobalSection
+EndGlobal
